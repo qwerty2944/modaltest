@@ -11,12 +11,10 @@ const mutationObserverOption: MutationObserverInit = {
  * 모달 컴포넌트를 렌더링하기 위한 전역 컨테이너 프로바이더입니다.
  * 모달이 열려 있을 때 body 요소에 'no-scroll' 클래스를 토글하여 스크롤을 비활성화합니다.
  *
- * @param {React.ReactNode} children - 모달 루트 내부에 렌더링할 자식 요소
+ *
  * @returns {JSX.Element} 모달 루트 프로바이더
  */
-const ModalRootProvider: React.FC<{ children: React.ReactNode }> = ({
-  children,
-}) => {
+const ModalRootProvider: React.FC = () => {
   const ref = useRef<HTMLDivElement>(null);
   // const { openedModalTypes, closeModal } = useModalStore();
   // const isModalOpen = openedModalTypes.length > 0;
@@ -53,9 +51,7 @@ const ModalRootProvider: React.FC<{ children: React.ReactNode }> = ({
       ref={ref}
       className='fixed inset-0 z-100 flex flex-col items-center justify-center pointer-events-none'
       // onClick={handleOutsideClick}
-    >
-      {children}
-    </div>
+    ></div>
   );
 };
 

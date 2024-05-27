@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 import { Constants } from '@/shared/models/common/constants/constants';
 import { convertToRegex } from '@/shared/utils/convertToRegex';
-import { updateSession } from '@/shared/libs/supabase/updateSession';
+// import { updateSession } from '@/shared/libs/supabase/updateSession';
 
 /**
  * RegexMap 인터페이스는 객체를 인덱싱하기 위한 인덱스 시그니처가 포함된 타입을 정의합니다.
@@ -83,8 +83,8 @@ export async function middleware(request: NextRequest) {
 
   if (isAllowed) {
     // 허용된 URL인 경우 쿠키에 성공한 언어를 저장하고 다음 미들웨어나 페이지로 이동
-    // const response = NextResponse.next();
-    const response = await updateSession(request);
+    const response = NextResponse.next();
+    // const response = await updateSession(request);
     response.cookies.set(Constants.COOKIE_NAME, url.split('/')[1]);
     return response;
   } else {
@@ -97,8 +97,8 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(redirectUrl);
     } else {
       // 현재 URL이 리다이렉트할 경로와 같은 경우 다음 미들웨어나 페이지로 이동
-      // const response = NextResponse.next();
-      const response = await updateSession(request);
+      const response = NextResponse.next();
+      // const response = await updateSession(request);
       return response;
     }
   }

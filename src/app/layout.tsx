@@ -12,8 +12,8 @@ type Props = {
 };
 
 export const metadata: Metadata = {
-  title: '리드포스쿨 진단 체험',
-  description: '리드포스쿨 진단',
+  title: '냠냠굿',
+  description: '졸업작품',
 };
 
 export default function RootLayout({ children, params: { lng } }: Props) {
