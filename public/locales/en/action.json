@@ -1,0 +1,12 @@
+{
+  "enter_name": "Enter your Name",
+  "start_test": "Start My Literacy Test",
+  "start_intro": "Start Solve Questions!",
+  "dont_know": "I don't know.",
+  "know": "I know!",
+  "next_word": "Next word.",
+  "next_question": "Next Question.",
+  "show_step_description": "Show Explaination for Step {{step}}",
+  "show_description": "Show",
+  "hide_description": "Hide"
+}

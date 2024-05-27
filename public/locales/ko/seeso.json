@@ -1,0 +1,12 @@
+{
+  "calibration_instruction": "여기를\n보세요",
+  "calibration_1_point": "1점 모드",
+  "calibration_5_point": "5점 모드",
+  "calibration_1_point_description": "간단하고 빠르게 진행할 수 있어요",
+  "calibration_5_point_description": "시선 추적이 더 정확해져요",
+  "face_not_found": "얼굴을 찾을 수 없습니다. 카메라에 얼굴이 잘 보이도록 자세를 변경해주세요",
+  "calibration_retry_instruction": "보정이 어려우면 자세를 바로잡고 다시 시도해보세요",
+  "permission_instruction_1": "트레이닝 진행을 위해 카메라 권한이 필요합니다",
+  "permission_instruction_2": "주소 표시줄 오른쪽 카메라 아이콘 또는 왼쪽 느낌표 아이콘을 클릭하여 카메라 권한을 허용해주세요"
+
+}

@@ -1,0 +1,12 @@
+{
+  "enter_name": "이름을 입력해주세요",
+  "start_test": "나의 문해력 테스트 시작하기",
+  "start_intro": "문제 풀기 시작할래요!",
+  "dont_know": "모르겠어요.",
+  "know": "알아요!",
+  "next_word": "다음 단어.",
+  "next_question": "다음 문제.",
+  "show_step_description": "{{step}}단계 설명 보기",
+  "show_description": "내용 보기",
+  "hide_description": "내용 숨기기"
+}

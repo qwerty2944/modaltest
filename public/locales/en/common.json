@@ -1,0 +1,9 @@
+{
+  "step": "Step {{step}}",
+  "question": "Question {{number}}",
+  "passage": "Passage {{number}}",
+  "tip": "TIP",
+  "hint": "HINT",
+  "hint_mission": "MISSION",
+  "hint_passage": "PASSAGE"
+}

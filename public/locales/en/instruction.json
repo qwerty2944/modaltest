@@ -1,0 +1,5 @@
+{
+  "diagnosis_type_1_instruction": "단어를 읽고 내가 아는 단어인지 선택해주세요",
+  "diagnosis_type_2_instruction": "예문을 읽고 적합한 단어를 선택해주세요",
+  "diagnosis_type_3_instruction": "지문을 읽고 알맞은 답을 선택해주세요"
+}

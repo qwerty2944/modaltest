@@ -1,0 +1,11 @@
+{
+  "calibration_instruction": "Look at\nhere",
+  "calibration_1_point": "1 Point Mode",
+  "calibration_5_point": "5 Point Mode",
+  "calibration_1_point_description": "Simple and fast",
+  "calibration_5_point_description": "More accurate Eye Tracking",
+  "face_not_found": "Can't find your face, please change to a position where your face is visible to the camera",
+  "calibration_retry_instruction": "If the Calibration is hard, adjust your position and try again",
+  "permission_instruction_1": "This Training requires Camera Permission",
+  "permission_instruction_2": "Please click the Camera Icon or ! mark on the search bar to grant the Camera Permission"
+}

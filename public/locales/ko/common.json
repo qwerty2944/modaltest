@@ -1,0 +1,9 @@
+{
+  "step": "{{step}} 단계",
+  "question": "문제 {{number}}",
+  "passage": "지문 {{number}}",
+  "tip": "TIP",
+  "hint": "HINT",
+  "hint_mission": "미션",
+  "hint_passage": "지문"
+}
